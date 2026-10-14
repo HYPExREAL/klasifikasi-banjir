@@ -1,0 +1,32 @@
+{
+    "accuracy": 0.9483,
+    "total_test_samples": 1180,
+    "classes": [
+        "banjir",
+        "bukan_banjir"
+    ],
+    "confusion_matrix": [
+        [
+            515,
+            37
+        ],
+        [
+            24,
+            604
+        ]
+    ],
+    "per_class": {
+        "banjir": {
+            "precision": 0.9555,
+            "recall": 0.933,
+            "f1_score": 0.9441,
+            "support": 552
+        },
+        "bukan_banjir": {
+            "precision": 0.9423,
+            "recall": 0.9618,
+            "f1_score": 0.9519,
+            "support": 628
+        }
+    }
+}
